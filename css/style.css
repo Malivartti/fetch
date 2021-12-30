@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	border: none;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	font-size: 22px;
+	border: 1px solid #b2b2b2;
+	border-radius: 4px;
+	padding: 20px;
+	width: 400px;
+}
+
+.form {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid #b2b2b2;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.input {
+	width: 100%;
+	font-size: inherit;
+}
+
+.result {
+	border: 1px solid #b2b2b2;
+	border-radius: 4px;
+	padding: 10px;
+}
